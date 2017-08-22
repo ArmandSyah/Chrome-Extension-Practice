@@ -1,4 +1,4 @@
-angular.module("app").service('todoStorage', function ($scope) {
+angular.module("app").service('todoStorage', function ($q) {
     var _this = this;
     this.data = [];
     this.findAll = function(callback){
